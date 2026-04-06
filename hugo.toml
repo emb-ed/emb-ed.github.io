@@ -1,13 +1,16 @@
 baseURL = "https://emb-ed.github.io/"
 languageCode = "en-us"
-title = "Cost of Conversion"
+title = "The Cost of Conversion"
 theme = "PaperMod"
 
 [params]
-  description = "On systems, thresholds, and what gets lost in between."
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   defaultTheme = "dark"
+
+  [params.homeInfoParams]
+    Title = "The Cost of Conversion"
+    Content = "On systems, thresholds, and what gets lost in between."
 
 [menu]
   [[menu.main]]
