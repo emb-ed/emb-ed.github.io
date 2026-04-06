@@ -1,0 +1,20 @@
+baseURL = "https://emb-ed.github.io/"
+languageCode = "en-us"
+title = "Cost of Conversion"
+theme = "PaperMod"
+
+[params]
+  description = "On systems, thresholds, and what gets lost in between."
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "dark"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
